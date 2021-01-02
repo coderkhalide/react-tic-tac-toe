@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+.board-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.board-row .square {
+  flex-basis: 60px;
+  border: 1px solid #ddd;
+  background: transparent;
+  outline: none;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  height: 60px;
+}
+.board-row .square:hover{
+  cursor: pointer;
+}
+.gameInfo{
+  width: 400px;
+  margin: 0 auto;
+}
